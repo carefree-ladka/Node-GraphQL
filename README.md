@@ -21,6 +21,30 @@ query {
 }
 ```
 
+# Query a Todo:
+
+```graphql
+query{
+  todo(id: $todoId) {
+    id
+    task
+    completed
+  }
+}
+
+Like below :
+
+query{
+  todo(id: "be4cfc83-3d12-481c-85e0-64182099f2fe") {
+    id
+    task
+    completed
+  }
+}
+
+Here you can fetch id, task & completed based on your needs
+```
+
 # Add a New Todo:
 
 ```graphql

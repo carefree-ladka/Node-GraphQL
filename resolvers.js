@@ -17,10 +17,26 @@ args = {
 }
 */
 
-const todos = []; // In-memory data storage
+const todos = [
+  {
+    "id": "be4cfc83-3d12-481c-85e0-64182099f2fe",
+    "task": "Learn GraphQL",
+    "completed": false
+  },
+  {
+    "id": "2d70b3a6-00f9-4920-a988-76d5debb2108",
+    "task": "Learn React",
+    "completed": false
+  },
+  {
+    "id": "2bf2add2-195c-4f29-bf69-b2dc9835a925",
+    "task": "Learn React + GraphQL",
+    "completed": false
+  }
+]; // In-memory data storage
 
 const resolvers = {
-  
+
   Query: {
     todos: () => todos,
     todo: (parent, args) => todos.find((todo) => todo.id === args.id),
@@ -34,8 +50,8 @@ const resolvers = {
     },
 
     updateTodo: (parent, args) => {
-      console.log('#',args);
-      
+      console.log('#', args);
+
       const { id, task, completed } = args
       const todoIndex = todos.findIndex((todo) => todo.id === id);
       if (todoIndex === -1) throw new Error('Todo not found');
