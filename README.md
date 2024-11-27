@@ -9,10 +9,11 @@
 **Try below Queries**
 
 
-![image](https://github.com/user-attachments/assets/8ee3b4ca-eba4-493e-a315-4630742f6f51)
-
 
 # Query All Todos:
+
+![image](https://github.com/user-attachments/assets/8ee3b4ca-eba4-493e-a315-4630742f6f51)
+
 
 ```graphql
 query {
@@ -24,10 +25,12 @@ query {
 }
 ```
 
-![image](https://github.com/user-attachments/assets/e1867dba-bdbd-4327-9c79-c6b7a3418ad0)
-
 
 # Query a Todo:
+
+
+![image](https://github.com/user-attachments/assets/e1867dba-bdbd-4327-9c79-c6b7a3418ad0)
+
 
 ```graphql
 query{
