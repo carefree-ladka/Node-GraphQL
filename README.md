@@ -4,7 +4,7 @@
 2. npm run start 
 
 
-# Go to http://localhost:4000/ and you'll be redirected to https://studio.apollographql.com/sandbox/explorer 
+**Go to http://localhost:4000/ and you'll be redirected to https://studio.apollographql.com/sandbox/explorer**
 
 **Try below Queries**
 
