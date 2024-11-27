@@ -5,7 +5,7 @@ Resolvers will have 4 arguments in their methods:
 parent or root, args , context and info
 Let's focus on args for now
 
-args :  args an object which have all arguments a mutation has in it.
+args :  args an object which have all arguments a query or mutation  has in it.
 
 addTodo(task: String!): Todo!
 
